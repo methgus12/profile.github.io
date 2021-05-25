@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body, html {
+    font-family: 'Noto Sans KR', sans-serif;/* 웹폰트 적용 */
+    width: 100%;
+    min-width: 320px; 
+}
+
+img {
+    max-width: 100%;/* 사이즈가 변했을 때 넓이 유지 */
+    height: auto; /* 넓이에 따라 높이가 변함 */
+}
+
+input, textarea, button, select {
+    -webkit-appearance: none; /* 브라우저별로 고유하게 적용되는 form관련요소들의 css제거 */
+    -moz-appearance: none;
+    -o-appearance: none;
+
+}
+
+ul, li, dl, ol {
+    list-style: none; /* 순서요소들의 리스트스타일 제거 */
+}
+
+.top > ul {
+    text-align: center;
+}
+.header .top > ul {
+    text-decoration: none;
+}
+        
+.top {
+    overflow: hidden;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: white;
+}
+.header {
+    position: fixed;
+   
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color :white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+footer .copyright {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer .footer-menu > li {
+    display: inline-block;
+}
+footer .footer-menu > li > a {
+    display: block;
+    padding: 0 15px;
+    color: white;   
+}
+.foot > a > li {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+
+}
+
+
+/*===main==*/
+
+.carousel-inner > img {
+    width: 80%;
+}
+/*사이드바*/
+
+.side {
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    z-index: 30;
+
+}
+.side-list li a {
+    display: block; padding: 5px ; 
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    font-size: 1em; /*em : 부모저장 을 기준 :즉 0.5 em은 부모기준 절반*/
+    border-top: 1px solid white;
+    letter-spacing: -1px; /*자간*/
+    font-weight: bold;
+
+}
+
+
+ 

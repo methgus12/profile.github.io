@@ -1,0 +1,37 @@
+/*========마이페이지 디자인 ==========*/
+
+.m-control .m-title {
+    vertical-align: middle; /*세로축의 가운데 정렬*/
+    width: 200px;
+}
+
+.m-control .form-control {
+    display: inline; /*가로로 배치하도록*/
+}
+.m-control .add {
+    width: 200px;
+}
+
+.m-control .sel {
+    width: 80px;
+}
+
+.m-control .sel2 {
+    width: 100px;
+}
+
+.m-control button {
+    vertical-align: top;
+}
+
+.titlebtn {
+    text-align: center;
+}
+
+.tab-content {
+    margin-top: 50px;
+}
+
+
+
+

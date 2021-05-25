@@ -1,0 +1,46 @@
+/*상품*/
+
+.prod-content {
+    overflow: hidden;
+    padding: 15px 0;
+}
+.prod-list > .info {
+    float: left;
+}
+.prod-content > .info > span {
+    display: block;
+}
+
+.prod-img > img {
+    width: 100%;
+    margin-top: 30px;
+
+}
+/*호버*/
+.prod-list {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.prod-list > .color > ul {
+    overflow: hidden;
+}
+
+.prod-list > .prod-color > ul > li {
+    width:40px;
+    float: left;
+}
+
+.prod-list > .color {
+    opacity: 0;
+    transition: all 0.5s ease-in-out ; 
+    margin-top: -360px; 
+    position: absolute;
+    width: 100%;
+}
+
+/* 호버 */
+.prod-list:hover > .color {
+    opacity: 0.5;
+
+}
